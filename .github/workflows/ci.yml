@@ -24,6 +24,7 @@ jobs:
         distribution: 'temurin'
         
     - name: Grant execute perm for gradlew
-
+      run: chmod +x gradlew
+      
     - name: Build with Gradle
       run: ./gradlew build
