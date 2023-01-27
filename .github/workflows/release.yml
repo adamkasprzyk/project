@@ -21,7 +21,10 @@ jobs:
         
     - name: Grant execute perm for gradlew
       run: chmod +x gradlew
-      
+
+    - name: Run npm ci
+      run: npm ci 
+
     - name: Build with Gradle
       run: ./gradlew build
 
