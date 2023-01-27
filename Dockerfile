@@ -8,3 +8,4 @@ WORKDIR /usr/app
 ENTRYPOINT ["java", "-jar", "app.jar"]
 
 # Added nonsense comment
+# THis was fix
